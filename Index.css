@@ -46,10 +46,20 @@ menu {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* why this doesn't work...*/
-menu ul {
+
+menu li::before {
+    content: ".";
+    margin-right: 0.4em;
+    position: relative;
+    top: -0.25em;
+}
+
+/* the size is too big...don't know how to adjust
+menu ul{
   list-style-image: url('bullet.png');
   padding: 0;
   margin: 0;
 }
+
+*/
 

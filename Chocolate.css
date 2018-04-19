@@ -20,6 +20,15 @@ body{
     background-size: cover;
 }
 
-menu ul{
-    color: white;
-};
+
+.btn {
+    background-color: #C7EDD2;
+    border: none;
+    color: green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+

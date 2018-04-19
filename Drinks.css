@@ -18,3 +18,73 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn {
+    background-color: #C7EDD2;
+    border: none;
+    color: green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.banner {
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+ul{
+    color: white;
+}
+
+.Milk {
+    display :inline-block;
+    width: 30%;
+    height: 50px;
+    margin: 1%;
+    padding-top: 44px;
+    position: absolute;
+    top: 760px;
+    border: 2px solid #555;
+    justify-content: space-around;
+    background-image: url("Milk.jpg");
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Latte {
+    display :inline-block;
+    width: 30%;
+    height: 50px;
+    margin: 1%;
+    padding-top: 44px;
+    position: absolute;
+    top: 760px;
+    left: 380px;
+    border: 2px solid #555;
+    justify-content: space-around;
+    background-image: url("Latte.jpg");
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Tea {
+    display :inline-block;
+    width: 30%;
+    height: 50px;
+    margin: 1%;
+    padding-top: 44px;
+    position: absolute;
+    top: 760px;
+    left: 760px;
+    border: 2px solid #555;
+    justify-content: space-around;
+    background-image: url("Tea.jpg");
+    height: 30%;
+    background-position: center;
+    background-size: cover;
+}
