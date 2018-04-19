@@ -1,0 +1,25 @@
+body {
+    background-color: #B9D2B1;
+    font-family:'Gamja Flower', cursive;
+}
+
+h1 {
+    font-size: 6rem;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    color:#F9E0E6 ;
+    text-shadow: -1px 0 #F990A9, 0 1px #F990A9, 1px 0 #F990A9, 0 -1px #F990A9;
+}
+
+body{
+    background-image: url("Chocolate.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+menu ul{
+    color: white;
+};
